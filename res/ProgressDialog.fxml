@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.allendalerobotics.frc.parser.ProgressDialog">
+   <children>
+      <ProgressBar fx:id="progressBar" layoutX="18.0" layoutY="13.0" prefWidth="200.0" progress="0.0" />
+      <ProgressIndicator fx:id="progressIndicator" layoutX="221.0" layoutY="10.0" progress="0.0" />
+      <Label fx:id="progressLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="30.0" prefHeight="17.0" prefWidth="200.0" text="Label" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
